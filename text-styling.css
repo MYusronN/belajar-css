@@ -1,0 +1,24 @@
+/*
+Text
+-color: add color font color
+-text-align: setting fomat paragraph
+-text-indet: give identasi pd paragraph
+-text-decoration: add decoration pd text
+ada: none, underline, overline, line-trough
+-text-transform: ubah jenis huruf menjadi besar, kecil, kecil/kapital
+ada: none, lowercase,uppercase, capitalize
+letter-spacing: atur spasi antar huruf
+word-spacing: atur spasi antar kata
+*/
+
+h1 {
+    font-size: 150px;
+    color: dimgrey;
+    text-decoration: line-through;
+}
+
+p {
+    text-indent: 50px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
