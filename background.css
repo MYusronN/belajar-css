@@ -1,0 +1,23 @@
+/*
+Background
+background-color
+    color bg
+background-image
+    img yg akan digunakan
+background-position
+    atur posisi img pda bg
+    : top, center bottom, x% y%, x-pos y-pos
+    - top left, top center, top right , dll.
+background-repeat
+    - atur jenis repeatimg pd bg
+    
+*/
+
+body {
+    background-color: grey;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* singkat
+    background: grey url(img/1.jpg) top center no-repeat*/
+}
