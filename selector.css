@@ -1,0 +1,35 @@
+/*
+Selector
+-elemen html
+id
+class
+complex selector
+--*
+properti sama mengunakan koma
+kalo spesifik spasi
+*/
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+ul li a {
+    color: crimson
+}
+
+ol li a {
+    color: goldenrod
+}
+
+#p1 {
+    color: green;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+    font-size: medium;
+}
