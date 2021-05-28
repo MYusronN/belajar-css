@@ -1,0 +1,73 @@
+/*
+Pseudo Class
+    : mendifinisihkan style dlam keadaan tertententu
+
+    Pseudo class Type Link:
+    
+    -link
+     : style default
+    -hover
+     ;style ketika berada di atas link
+    -active
+     :style ketika diklik
+    -visited
+     ;style ketika sudah pernah dikunjungi
+
+    Pseudo class Type posisi element:
+    :first-child
+     memilih elememnt pertama dari sebuah parent(pembukusnya)
+     ex: <ol>
+            <li><a href="">link 1</a></li>
+            <li><a href="">link 2</a></li>
+            </ol>
+        li adalah first child
+    :last-child
+     memilih elememnt pertama dari sebuah parent(pembukusnya)
+    :nth-child(n)
+     memilih elememnt ke-n dari sebuah parent(pembukusnya)
+     (n) bisa uuutan (1),(2),(3)...pola(2n),(3n=2),(4n-1)
+      atau ganjil (odd) & genap (even) 
+
+    Pseudo class Telemen posisi 2:
+    :first-of-type    
+     memilih elemen pertama dalam sebuah tag /class
+    :last-of-type
+      memilih elemen terakhir dalam sebuah tag /class
+*/
+
+li:first-child a {
+    color: chartreuse;
+}
+
+li:last-child a {
+    color: black;
+}
+
+li:nth-child(3n) a {
+    color: royalblue;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}
+
+.hello:link {
+    color: rgb(251, 255, 0);
+}
+
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: royalblue;
+}
+
+
+/* .p1:hover {
+    color: lightseagreen;
+}
+.hello:visited {
+    color: rgb(25, 255, 236);
+}
+*/
