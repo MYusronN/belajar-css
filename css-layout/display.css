@@ -1,0 +1,51 @@
+/*
+Display
+    inline
+    lebar dan tinggi sesuai konten di dalamnya
+    tidak biasa atur tinggi dan lebar 
+    margin dan padding haanya bisa mempegruhi elemen horizontal
+
+    inline-block
+    ubah manualpropertinya
+    bisa aut tinggi dan lebarnya
+
+    block
+    otomatis add baris baru
+    harus atur lebarnya agar tidak m emenuhi lebar parentnya
+    dpt menyimpan lemen inline,inline-block dan block
+    
+    none
+
+
+*/
+
+body {
+    background-color: lightgray;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
+
+img {
+    width: 200px;
+}
+
+.header {
+    background-color: khaki;
+    width: 600px;
+}
+
+.nav {
+    background-color: wheat;
+    width: 600px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.article {
+    background-color: whitesmoke;
+    width: 600px;
+}
