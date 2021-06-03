@@ -48,4 +48,18 @@ a:link {
 .article {
     background-color: whitesmoke;
     width: 600px;
+    overflow: scroll;
 }
+
+
+/*
+    Overflow Ada:
+        Visible
+
+        Auto
+            otomtis add scroll,jika konten berlebihan
+        Hidden
+            koneten yang berlebihan akan disembuyikan
+        scroll
+            scroll ttep ada walaup konten cukup
+*/
